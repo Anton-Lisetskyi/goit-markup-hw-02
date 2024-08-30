@@ -1,0 +1,41 @@
+/* #region variables */
+
+:root {
+    --color-primary-brand: rgb(77, 90, 229);
+    --color-primary-state: rgb(64, 75, 191);
+    --color-primary-dark: rgb(46, 47, 66);
+    --color-success: rgb(49, 208, 170);
+    --color-text-primary: rgb(47, 47, 49);
+    --color-text-subtitle: rgb(142, 143, 153);
+    --color-accent: rgb(231, 233, 252);
+    --color-light: rgb(244, 244, 253);
+    --color-modal-overlay: rgb(46, 47, 66);
+    --color-hero-background: rgb(46, 47, 66);
+    --color-white-background: rgb(255, 255, 255);
+    --color-modal-background: rgb(252, 252, 252);
+    
+}
+/* #endregion */
+
+/* #region base */
+body {
+    font-family: roboto, raleway, sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+/* #endregion */
+
+/* #region */
+/* #endregion */
+
+/* #region */
+/* #endregion */
+
