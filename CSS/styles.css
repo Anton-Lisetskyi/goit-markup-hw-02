@@ -87,7 +87,7 @@ a {
 .header-address a:hover {
     color: var(--color-primary-state);
 }
-.header-address a:active {
+.header-address a:focus {
     color: var(--color-primary-state);
 }
 
@@ -147,6 +147,9 @@ font-weight: 700;
 /* #endregion */
 
 /* #region team */
+.team {background-color: var(--color-light);
+}
+
 .team-list {
     background-color: var(--color-white-background);
 }
