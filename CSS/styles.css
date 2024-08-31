@@ -19,7 +19,7 @@
 
 /* #region base */
 body {
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     color: #434455;
     background-color: var(--color-white-background);
@@ -41,10 +41,10 @@ a {
 
 .header-logo {
     color: var(--color-primary-brand);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
@@ -66,27 +66,29 @@ a {
     color: var(--color-primary-dark);
 }
 
-.header-nav-item :hover {
+.header-nav-item a:hover {
     color: var(--color-primary-state);
 }
-.header-nav-item :active {
+.header-nav-item a:focus {
     color: var(--color-primary-state);
     text-decoration: underline;
 }
 
+.header-address {
+    font-style: normal;
+}
 .header-address-list {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        font-style: normal;
 }
 
-.header-address-item :hover {
-    color: var(--color-primary-brand);
+.header-address a:hover {
+    color: var(--color-primary-state);
 }
-.header-address-:active {
-    color: var(--color-primary-brand);
+.header-address a:active {
+    color: var(--color-primary-state);
 }
 
 /* #endregion */
@@ -105,7 +107,7 @@ font-weight: 700;
     
 }
 .hero-btn {
-    font-family: roboto,sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--color-primary-brand);
     color: var(--color-white-background);
     cursor: pointer;
@@ -145,9 +147,10 @@ font-weight: 700;
 /* #endregion */
 
 /* #region team */
-.team {
-    background-color: var(--color-light);
+.team-list {
+    background-color: var(--color-white-background);
 }
+
 .team-text-primary {
     font-weight: 700;
         font-size: 36px;
@@ -192,6 +195,7 @@ font-weight: 700;
 
 .portfolio-img {
     width: 360px;
+    height: 300px;
 }
 
 .portfolio-text-secondary {
@@ -217,7 +221,7 @@ font-weight: 700;
 }
 
 .footer-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
